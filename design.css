@@ -531,6 +531,12 @@ body[data-pagetype="page"] .entry .project_nav {
 	color: #000000;
 	font-weight: bold;
 	margin: 0 0 20px 0;
+	font-size: 1.5em;
+}
+
+.project_title span {
+	border-bottom: 1px solid #e6b800;
+	padding: 0px 30px 10px 0px;
 }
 
 .project_title.heading {
@@ -562,9 +568,9 @@ body:not([data-pagetype="project"]) .project_content {
 
 .project_media {
 	float: left;
-	width: -moz-calc(100% - 360px);
-    width: -webkit-calc(100% - 360px);
-    width: calc(100% - 360px);
+	width: -moz-calc(100% - 430px);
+    width: -webkit-calc(100% - 430px);
+    width: calc(100% - 430px);
 }
 
 .project_media > * {
@@ -583,7 +589,7 @@ body:not([data-pagetype="project"]) .project_content {
 body[data-pagetype="project"] .project_content {
 	float: right;
 	margin-top: -5px;
-	width: 300px;
+	width: 400px;
 	overflow: hidden;
 	word-wrap: break-word;
 }
