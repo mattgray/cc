@@ -97,19 +97,6 @@
 
 		<div class="entry" data-id="{{ project.id }}">
 
-			<div class="project_nav">
-				<a href="#" class="previous" rel="prev_project"><img src="{{#asset}}arrow-left.svg{{/asset}}"></a> 
-				<a href="#" class="index" rel="close_project">
-					<div>
-						<span>&nbsp;</span>
-						<span>&nbsp;</span>
-						<span>&nbsp;</span>
-						<span>&nbsp;</span>
-					</div>
-				</a>
-				<a href="#" class="next" rel="next_project"><img src="{{#asset}}arrow-right.svg{{/asset}}"></a>
-			</div>
-
 			{{#if_option "title_in_project"}}
 				{{#if project.show_title }}
 					<div class="project_title heading">
