@@ -423,7 +423,7 @@ var Design = {
 			.removeAttr('data-elementresizer data-resize-parent');
 
 		// Set the new resize attributes
-		if ( Cargo.Helper.GetCurrentPageType() === 'project' ) {
+		if ( Cargo.Helper.GetCurrentPageType() === 'project'  || !Cargo.Helper.IsOnHome() ) {
 			$('.project_media').attr(resizeAttrs);
 		} else {
 			$('.project_content').attr(resizeAttrs);
@@ -542,7 +542,8 @@ Cargo.Event.on("project_load_complete", function(pid) {
 	$('.project_nav').css('background-color', $('body').css('background-color'));
 
 	// Format projects
-	if ( Cargo.Helper.GetCurrentPageType() === 'project' ) {
+
+	if ( Cargo.Helper.GetCurrentPageType() === 'project' || Cargo.Helper.GetCurrentPageType() === 'page' ) {
 		Design.formatProjectContent();
 	} else {
 		Cargo.Event.trigger("projectContentFormatted");
