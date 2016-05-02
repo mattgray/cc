@@ -1026,7 +1026,7 @@ a#fullscreen:active {
 }
 
 body[data-pagetype="project"] .project_footer_thumbnails_container {
-	display: block;
+	display: none;
 }
 
 .project_footer_thumbnails {
