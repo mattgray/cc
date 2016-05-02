@@ -52,6 +52,7 @@ body {
 }
 
 .header_text {
+    font-family: 'Futura-Medium', sans-serif;
 	float: left;
 	font-size: 28px;
 	font-weight: normal;
