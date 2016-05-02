@@ -561,11 +561,11 @@ body[data-pagetype="page"] .entry .project_nav {
 /**
  * Project media
  */
-
+/*
 body:not([data-pagetype="project"]) .project_content {
 	font-size: 16px;
 	width: 100%;
-}
+}*/
 
 .project_media {
 	float: left;
@@ -587,7 +587,7 @@ body:not([data-pagetype="project"]) .project_content {
  * Project content
  */
 
-body[data-pagetype="project"] .project_content {
+body .project_content {
 	float: right;
 	margin-top: -5px;
 	width: 400px;
