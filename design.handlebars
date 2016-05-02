@@ -43,11 +43,7 @@
 			<div class="header_image">
 
 			{{#if_option "header_link_to_index"}}
-				{{#if_any route.search route.is_set}}
-					<a href="{{ site.direct_link }}">
-				{{else}}
-				<a href="{{ site.direct_link }}" rel="show_index">
-			{{/if_any}}
+				<a href="{{ site.direct_link }}">
 			{{/if_option}}
 				<img src="{{ site.header_url }}" {{#if display_options.header_2x}} height="{{ site.header_height_2x }}" width="{{ site.header_width_2x }}" {{else}} height="{{ site.header_height }}" width="{{ site.header_width }}" {{/if}} />
 			{{#if_option "header_link_to_index"}}</a>{{/if_option}}
@@ -56,7 +52,7 @@
 		{{/if}}
 
 		<div class="header_text">
-			<a href="{{ site.direct_link }}" {{#if_any route.search route.is_set}}{{else}}rel="show_index"{{/if_any}}>
+			<a href="{{ site.direct_link }}">
 				{{{ site.header_text }}}
 			</a>
 		</div>
@@ -198,7 +194,6 @@
 		{{#unless route.is_set}}
 			{{#if_option "thumbs_below_projects"}}
 				<div class="set_footer">
-					<a href="{{ site.direct_link }}" class="show_index" onclick="window.scrollTo(0,0);" rel="show_index">Index</a>
 				</div>
 			{{/if_option}}
 		{{/unless}}
@@ -247,7 +242,6 @@
 	</div>
 
 	<div class="site_footer">
-		<div class="view_all"><a href="#" rel="show_index">Index</a></div>
 	</div>
 
 	<style id="thumbnail_size"></style>
