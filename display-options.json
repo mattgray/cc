@@ -89,7 +89,7 @@
 		"id": "title_in_thumb",
 		"class": "main_options check",
 		"available": true,
-		"value": false,
+		"value": true,
 		"segments": [
 			{
 				"type": "boolean"
@@ -285,7 +285,7 @@
 		"class": "set_options check radio",
 		"available": true,
 		"value": {
-			"enabled": false,
+			"enabled": true,
 			"position": "top"
 		},
 		"segments": [
