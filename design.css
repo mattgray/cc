@@ -155,7 +155,6 @@ body {
 
 .set_link a {
 	color: #000;
-	font-weight: bold;
 }
 
 body:not([data-bodyview="set"]) .navigation .set_link.active a {
