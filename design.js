@@ -274,7 +274,7 @@ var Design = {
 		// Cache
 		var $el				= { },
 			data			= { },
-			ignoreList		= '.project_title, .project_footer',
+			ignoreList		= '.project_title, .project_footer, .sl_contact',
 			mediaElements	= 'img, video, iframe, object, audio, embed, div';
 
 		// Cache
