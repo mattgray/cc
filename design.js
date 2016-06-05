@@ -423,7 +423,7 @@ var Design = {
 			.removeAttr('data-elementresizer data-resize-parent');
 
 		// Set the new resize attributes
-		if ( Cargo.Helper.GetCurrentPageType() === 'project'  || !Cargo.Helper.IsOnHome() ) {
+		if ( true ||  Cargo.Helper.GetCurrentPageType() === 'project'  || !Cargo.Helper.IsOnHome() ) {
 			$('.project_media').attr(resizeAttrs);
 		} else {
 			$('.project_content').attr(resizeAttrs);
