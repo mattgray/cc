@@ -404,7 +404,7 @@
 		"id": "slide_transition_duration",
 		"class": "slideshow_options input",
 		"available": true,
-		"value": "0.4",
+		"value": "1",
 		"allowed": "0-9.",
 		"segments": [
 			{
@@ -428,8 +428,8 @@
 		"class": "slideshow_options check input",
 		"available": true,
 		"value": {
-			"enabled": false,
-			"delay": "1"
+			"enabled": true,
+			"delay": "3"
 		},
 		"segments": [
 			{
