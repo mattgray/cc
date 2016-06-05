@@ -2,6 +2,12 @@
  * Callisto
  */
 
+.sl_contact {
+  background: #ddd;
+  padding: 1em;
+  margin-top: 1em;
+}
+
 body,
 html {
 	margin: 0px;
